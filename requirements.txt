@@ -1,0 +1,16 @@
+# core
+pandas
+numpy
+tqdm
+
+# NLP / Transformers
+torch==2.2.2
+transformers==4.40.2
+
+# Thai NLP
+pythainlp==5.0.3
+
+# web
+streamlit
+fastapi
+uvicorn

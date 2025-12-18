@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Streamlit
+.streamlit/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Docker / Colima
+.colima/
+.docker/
+docker-data/
+
+# HuggingFace / NLP cache
+.cache/
+**/.cache/
+huggingface/
+hf_cache/
+
+# Logs
+*.log
+
+# Data (ถ้าไม่อยาก push CSV จริง)
+data/
+*.csv

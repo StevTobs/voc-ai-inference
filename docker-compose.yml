@@ -1,0 +1,9 @@
+services:
+  voc-app:
+    build: .
+    container_name: voc-csv-viewer
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./app.py:/app/app.py
+    restart: unless-stopped
