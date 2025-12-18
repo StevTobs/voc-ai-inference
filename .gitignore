@@ -31,5 +31,5 @@ hf_cache/
 *.log
 
 # Data (ถ้าไม่อยาก push CSV จริง)
-data/
-*.csv
+# data/
+# *.csv
